@@ -1,5 +1,5 @@
 
-# 🧠 Behavioral Cloning for Self-Driving Cars
+#  Behavioral Cloning for Self-Driving Cars
 
 This project implements **behavioral cloning using a Convolutional Neural Network (CNN)** to autonomously drive a car in the [Udacity self-driving car simulator](https://github.com/udacity/self-driving-car-sim).
 
@@ -7,7 +7,7 @@ It uses a deep learning model based on the NVIDIA architecture to predict steeri
 
 ---
 
-## 🚗 Project Structure
+##  Project Structure
 
 
 
@@ -26,7 +26,7 @@ behavioral-cloning/
 
 ---
 
-## 📦 Requirements
+##  Requirements
 
 ```bash
 Python 3.8+
@@ -48,7 +48,7 @@ pandas
 pip install -r requirements.txt
 ```
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 The CNN model is based on **NVIDIA's end-to-end architecture**, featuring:
 
@@ -61,7 +61,7 @@ Input image is cropped, resized to 66×200, and normalized between \[0, 1].
 
 ---
 
-## 🏁 How to Train
+##  How to Train
 
 Make sure your `driving_log.csv` and image dataset are in the `data/` directory.
 
@@ -78,7 +78,7 @@ This script:
 
 ---
 
-## 🧪 How to Run in Simulator
+##  How to Run in Simulator
 
 1. Launch the Udacity simulator in **Autonomous Mode**
 2. In terminal, run:
@@ -92,7 +92,7 @@ python drive.py model.h5
 
 ---
 
-## 🖼️ Sample Prediction Loop
+##  Sample Prediction Loop
 
 ```python
 steering_angle = float(model.predict(transformed_image_array, batch_size=1))
@@ -101,7 +101,7 @@ throttle = .2 if float(speed) > 5 else 1.0
 
 ---
 
-## 📂 Dataset Format
+##  Dataset Format
 
 The simulator exports a `driving_log.csv` with columns:
 
@@ -113,7 +113,7 @@ Images are stored in `IMG/`.
 
 ---
 
-## 📈 Future Work
+##  Future Work
 
 * Add road segmentation or lane detection
 * Integrate RNN/LSTM for temporal dependencies
@@ -121,7 +121,7 @@ Images are stored in `IMG/`.
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Ruthvik Racha**
 📧 [ruthvik@example.com](mailto:ruthvik@example.com)
@@ -129,7 +129,7 @@ Images are stored in `IMG/`.
 
 ---
 
-## 📜 License
+##  License
 
 MIT License — see `LICENSE` for details.
 
