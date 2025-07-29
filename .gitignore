@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# Virtual environments
+venv/
+.env/
+
+# OS files
+.DS_Store
+
+

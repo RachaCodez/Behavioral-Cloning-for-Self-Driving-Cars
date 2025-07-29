@@ -1,0 +1,24 @@
+# Core ML & GPU-compatible packages
+tensorflow==2.13.0
+keras==2.13.1
+
+# Data manipulation
+numpy==1.23.5
+pandas==1.5.3
+scikit-learn==1.2.2
+
+# Image processing
+scikit-image==0.19.3
+matplotlib==3.7.1
+Pillow==9.5.0
+
+# Web & simulator interaction
+flask==2.2.5
+python-socketio==5.9.0
+eventlet==0.33.3
+
+# Logging callbacks
+h5py==3.8.0
+
+# Optional (only if needed for video or model saving)
+imageio==2.31.1
