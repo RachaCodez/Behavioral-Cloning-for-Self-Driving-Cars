@@ -47,8 +47,7 @@ pandas
 ```bash
 pip install -r requirements.txt
 ```
----
-```
+
 ## 🧠 Model Architecture
 
 The CNN model is based on **NVIDIA's end-to-end architecture**, featuring:
